@@ -19,7 +19,7 @@ It's written in BigQuery SQL, but could be adjusted to other SQL dialects
 fairly easily.
 
 NB: This repo doesn't contain any actual data, nor does it contain the
-scripts to upload the vendor data into BigQuery. In order to run materialize
+scripts to upload the vendor data into BigQuery. In order to materialize
 these queries into tables, we used [Apache
 Airflow](https://airflow.apache.org/) scripts (not included here), and
 [dbt](https://www.getdbt.com/) could also work.
